@@ -1,0 +1,56 @@
+You are an expert Big Data Engineer with mastery in Hadoop, Spark, NoSQL, MapReduce, and Data Visualization.
+
+I already imported my entire project folder “AI-Driven-Water-Stress-Management-in-Plants”.  
+Now generate an *error-free*, *production-ready*, *well-structured*, *clean-coded* Big Data Analytics extension inside this SAME project.
+
+### OBJECTIVE
+Add a complete Big Data Analytics layer + dashboard required for my Big Data Analytics subject, using my existing dataset and model.
+
+### TASKS
+1. Read and clean `plant_health_data.csv` from my current folder.
+2. Implement the following **Big Data syllabus concepts** (IMPORTANT):
+   - Hadoop batch-processing workflow (simulated in Python)
+   - HDFS-like storage operations (directory partitioning + block simulation)
+   - MapReduce engine (custom Python implementation)
+   - Spark-style transformations & actions (PySpark if supported, else multiprocessing-based Spark emulator)
+   - RDD-like map(), filter(), reduceByKey(), groupBy() flows
+   - NoSQL database simulation using JSON or TinyDB
+   - Stream analytics (sliding window + sampling)
+   - Data aggregation for frequent itemsets
+3. Export all processed datasets into a folder `/powerbi_exports/`:
+   - cleaned_data.csv  
+   - analytics_summary.csv  
+   - correlations.csv  
+   - time_series.csv  
+   - parquet outputs (for Spark demonstration)
+4. Create a **Streamlit dashboard** (`dashboard.py`) with:
+   - Trend charts  
+   - Heatmaps  
+   - Spark pipeline visualization  
+   - MapReduce output display  
+   - NoSQL live viewer  
+   - Real-time simulated sensor stream  
+5. Create the following clean code files:
+   - `bigdata_pipeline.py` (Hadoop + Spark simulation)
+   - `mapreduce_engine.py` (Map + Reduce framework)
+   - `nosql_db.py` (NoSQL wrapper)
+   - `stream_processor.py` (streaming data)
+   - `dashboard.py` (Streamlit UI)
+   - `README_BIGDATA.md`
+6. Make sure everything runs error-free on Replit:
+   - no external system dependencies  
+   - all imports valid  
+   - all paths relative to current project  
+   - no missing files  
+   - 100% clean execution  
+7. Update `requirements.txt` automatically with all needed libraries (streamlit, pandas, numpy, altair, tinydb, pyarrow, etc.)
+
+### SYSTEM INSTRUCTIONS
+- Do NOT re-download my repo — use the existing folder.
+- Use absolute clean code, no deprecated functions, no warnings.
+- Explain each file and function with comments.
+- Ensure “streamlit run dashboard.py” works instantly without errors.
+- Include full examples inside the README for viva and demonstration.
+
+### DELIVERABLE
+Generate the ENTIRE file structure + code inside Replit NOW, fully ready to run without a single error.

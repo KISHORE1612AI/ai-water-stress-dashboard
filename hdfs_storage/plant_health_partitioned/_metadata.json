@@ -1,0 +1,32 @@
+{
+  "filename": "plant_health_partitioned",
+  "total_records": 1200,
+  "partitions": 4,
+  "partition_size": 300,
+  "blocks": [
+    {
+      "partition": 0,
+      "path": "hdfs_storage/plant_health_partitioned/part-00000.parquet",
+      "records": 300,
+      "size_bytes": 41408
+    },
+    {
+      "partition": 1,
+      "path": "hdfs_storage/plant_health_partitioned/part-00001.parquet",
+      "records": 300,
+      "size_bytes": 41467
+    },
+    {
+      "partition": 2,
+      "path": "hdfs_storage/plant_health_partitioned/part-00002.parquet",
+      "records": 300,
+      "size_bytes": 41408
+    },
+    {
+      "partition": 3,
+      "path": "hdfs_storage/plant_health_partitioned/part-00003.parquet",
+      "records": 300,
+      "size_bytes": 41444
+    }
+  ]
+}
