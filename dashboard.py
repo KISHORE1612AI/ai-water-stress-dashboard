@@ -502,7 +502,7 @@ st.divider()
 st.markdown("""
 <div style='text-align: center; color: #666; padding: 20px;'>
     <p><strong>Big Data Analytics Dashboard</strong> | VIT 2025</p>
-    <p>Built by: Kirtthan Duvvi, Kushal Sharma, Akshar Varma</p>
+    <p>Built by: Kishore kumar ss </p>
     <p>Technologies: Hadoop • Spark • MapReduce • NoSQL • Stream Processing</p>
 </div>
 """, unsafe_allow_html=True)
